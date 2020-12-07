@@ -32,7 +32,7 @@ vars:
     zendesk_database: dev
     zendesk_schema: zendesk
   google_ads_source:
-    google_ads_schema:adwords
+    google_ads_schema:google_adwords
     google_ads_database: dev
 # In this example config, we tell dbt to build all models in the example/ directory
 # as tables. These settings can be overridden in the individual model files
