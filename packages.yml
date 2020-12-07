@@ -1,3 +1,5 @@
 packages:
   - package: fivetran/zendesk
     version: 0.1.0
+  - package: fivetran/google_ads
+    version: 0.1.0
