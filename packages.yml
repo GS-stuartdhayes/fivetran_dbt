@@ -1,3 +1,5 @@
 packages:
   - package: fivetran/zendesk
     version: 0.1.0
+  - package: fishtown-analytics/facebook_ads
+    version: 0.6.0
