@@ -31,9 +31,10 @@ vars:
   zendesk_source:
     zendesk_database: dev
     zendesk_schema: zendesk
-  google_ads_source:
-    google_ads_database: dev
-    google_ads_schema: adwords
+    using_schedules: false #removes table only available in enterprise
+#  google_ads_source:
+#    google_ads_database: dev
+#   google_ads_schema: adwords
 # In this example config, we tell dbt to build all models in the example/ directory
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
